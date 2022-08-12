@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+*{
+    box-sizing: border-box;
+    font-family: inter;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background: #23252C;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+    width: 40%;
+    height: 50%;
+    margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.photo{
+    width: 100%;
+    height: 60%;
+    border-radius: 15px 15px  0px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.main{
+    border-radius: 15px 15px  0px 0px;
+    background: #1A1B21;
+    max-height: 80%;
+    overflow: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.position{
+    color: #F3BF99;
+    text-align: center;
+    font-weight: 400;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+button{
+    padding: 9px 13px 9px 11px;
+    border-radius: 6px;
+    font-weight: 500;
+    width: 120px;
+    font-size: 16px;
+}
+
+.left-btn{
+    cursor: pointer;
+}
+
+.right-btn{
+    background: #5093E2;
+    color: white;
+    cursor: pointer;
+}
+
+i{
+    margin-right: 9px;
+}
+
+.info{
+    color: white;
+    margin: 10px 20px;
+}
+
+footer{
+    border-radius: 0px 0px 15px 15px ;
+    background: #161619;
+   
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    background: #F3BF99;
+    padding: 5px;
+}
+
+.social-network{
+    margin: auto;
+    cursor: pointer;
+}
+
+.credit{
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.credit>a:link{
+    color: whitesmoke;
 }
